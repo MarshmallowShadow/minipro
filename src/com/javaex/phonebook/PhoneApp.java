@@ -71,7 +71,7 @@ public class PhoneApp {
 							pArray.remove(delNum);
 							//실시간 파일 덮어쓰기 (함수는 아래에)
 							updateTxt(pArray);
-							System.out.println(delName + "의 연락처를 삭제했습니다.");
+							System.out.println("[ " + delName + "의 연락처를 삭제했습니다. ]");
 						}
 					} catch(Exception e) {
 						System.out.println("[ 오류: 잘못 입력하셨습니다. ]");
